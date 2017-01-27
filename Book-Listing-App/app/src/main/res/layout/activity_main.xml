@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.example.booklisting.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/search_image" />
+
+    <EditText
+        android:id="@+id/book_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="72dp"
+        android:hint="Search Books" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="108dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="112dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/search"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</RelativeLayout>

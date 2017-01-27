@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_d60b04eb5acb2d286c038528e264d3b4447b723e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e1e3d7e23e3b016c48c9a4598b2d59eaa40fd19a">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_352efa5e9912779d8884eeba0390a23be59aab28\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_17de929ed4dc93b356623d3a05e989fd5a99f5ef\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\CS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_097049d53e7befe28873ee870db44c9df4af3fb5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_722418b8ecb8421c987fd79a1474992c1fb557f8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_a3095bb5b72512d7334678d77c4675e06a2c2cb1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5f69770b5521b7d397ceb37e33725c2e74bfa3d5">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_81d5ae4f86de3c042acb360598396ff74512a25f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\BookListing\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_ac2cb1586c69aa4148054473ac8debd61de81fcb\classes.dex" />
+    </item>
+
+</items>
