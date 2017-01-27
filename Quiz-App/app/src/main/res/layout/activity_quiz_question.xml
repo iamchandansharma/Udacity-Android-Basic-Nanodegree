@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context="com.example.android.quizapp.quiz_question">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_field_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-dark"
+            android:text=""
+            android:textSize="24sp" />
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q1. Computers use the ____________ language to process data." />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_one"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_one_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupOneRadioButtonClicked"
+                android:text="@string/processing" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_one_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupOneRadioButtonClicked"
+                android:text="@string/kilobyte" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_one_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupOneRadioButtonClicked"
+                android:text="@string/binary" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_one_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupOneRadioButtonClicked"
+                android:text="@string/representational" />
+        </RadioGroup>
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q2. The term bit is short for:" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_two"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_two_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTwoRadioButtonClicked"
+                android:text="@string/megabyte" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_two_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTwoRadioButtonClicked"
+                android:text="@string/binary_language" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_two_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTwoRadioButtonClicked"
+                android:text="@string/binary_digit" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_two_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTwoRadioButtonClicked"
+                android:text="@string/binary_number" />
+        </RadioGroup>
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q3. Apple Macintoshes (Macs) and PCs use different ____________ to process data and different operating systems." />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_three"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_three_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupThreeRadioButtonClicked"
+                android:text="@string/languages" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_three_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupThreeRadioButtonClicked"
+                android:text="@string/cpu" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_three_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupThreeRadioButtonClicked"
+                android:text="@string/methods" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_three_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupThreeRadioButtonClicked"
+                android:text="@string/storage_devices" />
+        </RadioGroup>
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q4. The operating system is the most common type of ____________ software." />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_four"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_four_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupFourRadioButtonClicked"
+                android:text="@string/communication" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_four_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupFourRadioButtonClicked"
+                android:text="@string/application" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_four_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupFourRadioButtonClicked"
+                android:text="@string/system" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_four_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupFourRadioButtonClicked"
+                android:text="@string/word_processing_software" />
+        </RadioGroup>
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q5. Which of the following computer language" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_five_id_one"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxFiveClicked"
+            android:text="@string/c" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_five_id_two"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxFiveClicked"
+            android:text="@string/cplusplus" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_five_id_three"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxFiveClicked"
+            android:text="@string/java" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_five_id_four"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxFiveClicked"
+            android:text="@string/mouse" />
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q6. Which computer has been designed to be as compact as possible?" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_six"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_six_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSixRadioButtonClicked"
+                android:text="@string/mini_computer" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_six_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSixRadioButtonClicked"
+                android:text="@string/super_computer" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_six_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSixRadioButtonClicked"
+                android:text="@string/micro_computer" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_six_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSixRadioButtonClicked"
+                android:text="@string/mainframe_computer" />
+        </RadioGroup>
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q7. Which method is used to connect a remote computer?" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_seven"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_seven_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSevenRadioButtonClicked"
+                android:text="@string/device" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_seven_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSevenRadioButtonClicked"
+                android:text="@string/dialup" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_seven_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSevenRadioButtonClicked"
+                android:text="@string/diagnostic" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_seven_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupSevenRadioButtonClicked"
+                android:text="@string/logic_circuit" />
+        </RadioGroup>
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q8. Which are input devices?" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_eight_id_one"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxEightClicked"
+            android:text="@string/keyboard" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_eight_id_two"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxEightClicked"
+            android:text="@string/scanner" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_eight_id_three"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxEightClicked"
+            android:text="@string/printer" />
+
+        <CheckBox
+            android:id="@+id/checkbox_question_eight_id_four"
+            style="@style/CheckBoxAttributes"
+            android:onClick="onCheckBoxEightClicked"
+            android:text="@string/monitor" />
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q9. The symbols used in an assembly language are" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_nine"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_nine_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupNineRadioButtonClicked"
+                android:text="@string/codes" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_nine_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupNineRadioButtonClicked"
+                android:text="@string/mnemonics" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_nine_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupNineRadioButtonClicked"
+                android:text="@string/assembler" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_nine_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupNineRadioButtonClicked"
+                android:text="@string/all" />
+        </RadioGroup>
+
+        <View style="@style/ViewAttributes" />
+
+        <TextView
+            style="@style/TextViewAttribute"
+            android:text="Q10. The list of coded instructions is called" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question_ten"
+            style="@style/RadioGroupAttribute"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_group_question_ten_id_one"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTenRadioButtonClicked"
+                android:text="@string/computer_program" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_ten_id_two"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTenRadioButtonClicked"
+                android:text="@string/algorithm" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_ten_id_three"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTenRadioButtonClicked"
+                android:text="@string/flowchart" />
+
+            <RadioButton
+                android:id="@+id/radio_group_question_ten_id_four"
+                style="@style/RadioButtonAttribute"
+                android:onClick="onRadioGroupTenRadioButtonClicked"
+                android:text="@string/utility_program" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#AED581"
+            android:onClick="onSubmit"
+            android:text="submit"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</ScrollView>

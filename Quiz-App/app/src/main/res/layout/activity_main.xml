@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/question_mark" />
+
+    <EditText
+        android:id="@+id/email_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="145dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/name_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="108dp"
+        android:layout_marginTop="205dp"
+        android:hint="Name"
+        android:inputType="textCapWords" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_text_field"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#AED581"
+        android:onClick="startQuizQuestion"
+        android:text="start"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</RelativeLayout>

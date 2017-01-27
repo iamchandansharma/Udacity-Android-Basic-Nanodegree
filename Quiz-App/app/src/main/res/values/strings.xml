@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="processing">Processing </string>
+    <string name="kilobyte">Kilobyte</string>
+    <string name="binary">Binary</string>
+    <string name="representational">Representational</string>
+
+    <string name="megabyte">Megabyte</string>
+    <string name="binary_language">Binary Language</string>
+    <string name="binary_digit">Binary Digit</string>
+    <string name="binary_number">Binary Number</string>
+
+    <string name="languages">Languages</string>
+    <string name="methods">Methods</string>
+    <string name="cpu">CPUs</string>
+    <string name="storage_devices">Storage Devices</string>
+
+    <string name="communication">Communication</string>
+    <string name="application">Application</string>
+    <string name="system">System</string>
+    <string name="word_processing_software">Word Processing Software</string>
+
+    <string name="c">C</string>
+    <string name="cplusplus">C++</string>
+    <string name="java">Java</string>
+    <string name="mouse">Mouse</string>
+
+    <string name="mini_computer">Mini Computer</string>
+    <string name="super_computer">Super computer</string>
+    <string name="micro_computer">Micro computer</string>
+    <string name="mainframe_computer">Mainframe Computer</string>
+
+    <string name="device">Device</string>
+    <string name="dialup">Dialup</string>
+    <string name="diagnostic">Diagnostic</string>
+    <string name="logic_circuit">Logic circuit</string>
+
+    <string name="keyboard">Keyboard</string>
+    <string name="scanner">Scanner</string>
+    <string name="printer">Printer</string>
+    <string name="monitor">Monitor</string>
+
+    <string name="codes">Codes</string>
+    <string name="mnemonics">Mnemonics</string>
+    <string name="assembler">Assembler</string>
+    <string name="all">All of the above</string>
+
+    <string name="computer_program">Computer program</string>
+    <string name="algorithm">Algorithm</string>
+    <string name="flowchart">Flowchart</string>
+    <string name="utility_program">Utility programs</string>
+
+
+</resources>
