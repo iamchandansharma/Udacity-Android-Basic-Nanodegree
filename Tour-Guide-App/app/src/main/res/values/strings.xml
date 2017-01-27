@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+
+    <!-- City Details -->
+    <string name="city_agra"> Agra </string>
+    <string name="city_ahmedabad">Ahmedabad</string>
+    <string name="city_amritsar"> Amritsar </string>
+    <string name="city_bangalore">Bangalore</string>
+    <string name="city_chennai"> Chennai </string>
+    <string name="city_hyderabad">Hyderabad</string>
+    <string name="city_jaipur"> Jaipur </string>
+    <string name="city_lucknow">Lucknow</string>
+    <string name="city_mumbai"> Mumbai </string>
+    <string name="city_noida">Noida</string>
+    <string name="city_pune"> Pune </string>
+    <string name="city_trichy">Trichy</string>
+    <string name="city_utter_pradesh">Uttar Pradesh</string>
+    <string name="city_gujarat">Gujarat</string>
+    <string name="city_punjab">Punjab</string>
+    <string name="city_karnataka">Karnataka</string>
+    <string name="city_telangana">Telangana</string>
+    <string name="city_rajasthan">Rajasthan</string>
+    <string name="city_tamil_nadu">Tamil Nadu</string>
+    <string name="city_maharashtra">Maharashtra</string>
+
+    <!-- Hill Station Detail -->
+    <string name="hill_station_kufri">Kufri</string>
+    <string name="hill_station_chail"> Chail</string>
+    <string name="hill_station_kotagiri">Kotagiri</string>
+    <string name="hill_station_ponmudi">Ponmudi</string>
+    <string name="hill_station_paithalmala">Paithalmala</string>
+    <string name="hill_station_wilson_hill"> Wilson Hills</string>
+    <string name="hill_station_doodhpathri">Doodhpathri</string>
+    <string name="hill_station_khajjiar_lake">Khajjiar Lake</string>
+    <string name="hill_station_himachal_pradesh">Himachal Pradesh</string>
+    <string name="hill_station_kerala">Kerala</string>
+    <string name="hill_station_dharampur"> Dharampur</string>
+    <string name="hill_station_jammu_and_kashnir">Jammu and Kashmir</string>
+
+    <!-- University Details -->
+    <string name="university_bhu">Banaras Hindu University</string>
+    <string name="university_bits"> Birla Institute of Technology and Science</string>
+    <string name="university_iisc">Indian Institute of Science</string>
+    <string name="university_iitb">Indian Institute of Technology Bombay</string>
+    <string name="university_iitd">Indian Institute of Technology Delhi</string>
+    <string name="university_iitk"> Indian Institute of Technology Kharagpur</string>
+    <string name="university_iitm">Indian Institute of Technology Madras</string>
+    <string name="university_jnu">Jawaharlal Nehru University</string>
+    <string name="university_uod"> University of Delhi</string>
+    <string name="university_uoh">University of Hyderabad</string>
+
+    <!-- Hotels Details -->
+    <string name="hotel_umaid_bhawan_palace">Umaid Bhawan Palace</string>
+    <string name="hotel_orange_counrt_resorts"> Orange County Resorts Kabini</string>
+    <string name="hotel_taj_lake_palace">Taj Lake Palace</string>
+    <string name="hotel_the_oberoi_rajvilas">The Oberoi Rajvilas</string>
+    <string name="hotel_orange_country_coorg">Orange County, Coorg</string>
+    <string name="hotel_rambha_palace">Rambagh Palace</string>
+    <string name="hotel_the_oberoi_banglore">The Oberoi Banglore</string>
+    <string name="hotel_bella_vista_resort">Bella Vista Resort</string>
+    <string name="hotel_the_leela_palace">The Leela Palace</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Category Details -->
+    <string name="category_city">Citys</string>
+    <string name="category_hotel">Hotels</string>
+    <string name="category_hill_station">Stations</string>
+    <string name="category_university">Colleges</string>
+
+</resources>
+
+
+
+
+
+
+
