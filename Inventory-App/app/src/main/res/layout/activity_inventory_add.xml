@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:padding="16dp"
+    tools:context="com.example.android.inventorymanagement.InventoryAddActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/inventory_item_title"
+            style="@style/TextViewStyle"
+            android:text="@string/product_name"/>
+
+        <EditText
+            android:id="@+id/inventory_title_edit_text"
+            style="@style/EditorFieldStyle"
+            android:layout_below="@id/inventory_item_title"
+            android:hint="@string/product_name"/>
+
+        <TextView
+            android:id="@+id/inventory_item_price"
+            style="@style/TextViewStyle"
+            android:layout_below="@id/inventory_title_edit_text"
+            android:text="@string/product_price"/>
+
+        <EditText
+            android:id="@+id/inventory_item_price_edit_text"
+            style="@style/EditorFieldStyle"
+            android:layout_below="@id/inventory_item_price"
+            android:inputType="number"
+            android:hint="@string/price"/>
+
+        <TextView
+            android:id="@+id/inventory_item_quantity"
+            style="@style/TextViewStyle"
+            android:layout_below="@id/inventory_item_price_edit_text"
+            android:text="@string/product_quantity"/>
+
+        <EditText
+            android:id="@+id/inventory_item_quantity_edit_text"
+            style="@style/EditorFieldStyle"
+            android:layout_below="@id/inventory_item_quantity"
+            android:inputType="number"
+            android:hint="@string/quantity"/>
+
+        <LinearLayout
+            android:id="@+id/upload_image_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/inventory_item_quantity_edit_text"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/inventory_item_image_view"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:layout_height="120dp"/>
+            <Button
+                android:id="@+id/upload_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:layout_weight="1"
+                android:background="#40ffffff"
+                android:text="@string/upload_image"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_update_group_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upload_image_layout"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/add_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:background="#808BC34A"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/delete_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:background="#80F44336"
+                android:text="@string/delete_item"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

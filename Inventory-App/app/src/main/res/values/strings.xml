@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Inventory Management</string>
+    <string name="no_inventory_item">No Inventory Item!</string>
+    <string name="please_add_item">Please Add Item!</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="product_quantity">Product Quantity</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="product_image">Upload Product Image</string>
+    <string name="upload_image">upload image</string>
+    <string name="add_item">Add Item</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="inventory_save_item_error">Error with saving inventory item</string>
+    <string name="inventory_save_item_successful">Inventory item saved</string>
+    <string name="inventory_update_item_error">Error with updating inventory item</string>
+    <string name="inventory_update_item_successful">Inventory item updated</string>
+    <string name="inventory_delete_item_error">Error with deleting inventory item</string>
+    <string name="inventory_delete_item_successful">Inventory item deleted</string>
+    <string name="action_delete_all_entries">Delete all item</string>
+    <string name="all_inventory_item">All inventory item deleted</string>
+    <string name="no_inventory_item_in_list">No item on List Please add some item</string>
+    <string name="update_item">Update Item</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>
