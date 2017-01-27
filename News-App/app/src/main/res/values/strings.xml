@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Infinite News</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="error_message"> Check Your Internet Connection</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- all item names -->
+    <string name="top_stories">Top Stories</string>
+    <string name="world">World</string>
+    <string name="business">Business</string>
+    <string name="opinion">Opinion</string>
+    <string name="politics">Politics</string>
+    <string name="sports">Sports</string>
+    <string name="fashion">Fashion</string>
+    <string name="magazine">Magazine</string>
+    <string name="movie_reviews">Movie Reviews</string>
+    <string name="national">National</string>
+    <string name="technology">Technology</string>
+    <string name="ny_region">New York Region</string>
+    <string name="science">Science</string>
+    <string name="health">Health</string>
+    <string name="arts">Arts</string>
+    <string name="food">Food</string>
+    <string name="travel">Travel</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="more_section">More Section</string>
+    <string name="communication">Communication</string>
+
+    <string name="no_news_data">No News Found.</string>
+</resources>

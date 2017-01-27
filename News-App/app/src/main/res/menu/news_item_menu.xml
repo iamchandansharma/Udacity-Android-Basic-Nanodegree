@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_top_stories"
+            android:icon="@drawable/ic_trending_up_black_18dp"
+            android:title= "@string/top_stories"/>
+        <item
+            android:id="@+id/nav_world"
+            android:icon="@drawable/ic_world_black_18dp"
+            android:title="@string/world" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_business_center_black_18dp"
+            android:title="@string/business" />
+        <item
+            android:id="@+id/nav_opinion"
+            android:icon="@drawable/ic_group_black_18dp"
+            android:title="@string/opinion" />
+        <item
+            android:id="@+id/nav_politics"
+            android:icon="@drawable/ic_politics_black_18dp"
+            android:title="@string/politics" />
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_golf_course_black_18dp"
+            android:title="@string/sports" />
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/ic_shopping_basket_black_18dp"
+            android:title="@string/fashion" />
+        <item
+            android:id="@+id/nav_magazine"
+            android:icon="@drawable/ic_import_contacts_black_18dp"
+            android:title="@string/magazine" />
+    </group>
+
+    <item android:title="@string/more_section">
+        <menu>
+            <item
+                android:id="@+id/nav_national"
+                android:icon="@drawable/ic_domain_black_18dp"
+                android:title="@string/national" />
+
+            <item
+                android:id="@+id/nav_technology"
+                android:icon="@drawable/ic_technology_black_18dp"
+                android:title="@string/technology" />
+            <item
+                android:id="@+id/nav_ny_region"
+                android:icon="@drawable/ic_location_city_black_18dp"
+                android:title="@string/ny_region" />
+            <item
+                android:id="@+id/nav_science"
+                android:icon="@drawable/ic_settings_remote_black_18dp"
+                android:title="@string/science" />
+            <item
+                android:id="@+id/nav_health"
+                android:icon="@drawable/ic_local_hospital_black_18dp"
+                android:title="@string/health" />
+
+            <item
+                android:id="@+id/nav_arts"
+                android:icon="@drawable/ic_color_lens_black_18dp"
+                android:title="@string/arts" />
+            <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/ic_local_dining_black_18dp"
+                android:title="@string/food" />
+            <item
+                android:id="@+id/nav_travel"
+                android:icon="@drawable/ic_travel_black_18dp"
+                android:title="@string/travel" />
+        </menu>
+    </item>
+    <item android:title="@string/communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_18dp"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_18dp"
+                android:title="@string/about" />
+        </menu>
+    </item>
+</menu>
