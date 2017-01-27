@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="favorites">Favorites</string>
+    <string name="atif_aslam">Atif Aslam</string>
+    <string name="shreya_ghosal">Shreya Ghosal</string>
+    <string name="arjeet_singh">Arjeet Singh</string>
+    <string name="sonu_nigam">Sonu Nigam</string>
+    <string name="song_01">01 Jeene Laga Hoon </string>
+    <string name="song_02">02 Jeena Jeena</string>
+    <string name="song_03">03 Manwa Laage</string>
+    <string name="song_04">04 Nagada Sang Dhol</string>
+    <string name="song_05">05 Kal ho na ho</string>
+    <string name="song_06">06 Suraj Hua Madham</string>
+    <string name="song_07">07 Tum Hi Ho</string>
+    <string name="song_08">08 Gerua</string>
+    <string name="album_01">Doorie</string>
+    <string name="album_02">Jal Pari</string>
+    <string name="album_03">Airlift</string>
+    <string name="album_04">Aashiqui 2</string>
+    <string name="album_05">Jaan</string>
+    <string name="album_06">Har Pal</string>
+
+</resources>

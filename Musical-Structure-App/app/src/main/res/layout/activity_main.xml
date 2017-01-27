@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/artists_icon"
+            style="@style/LinearLayoutAttributes"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:background="#009688">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/artists" />
+
+            <TextView
+                style="@style/TextFieldAttributes"
+                android:text="@string/artists" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/albums_icon"
+            style="@style/LinearLayoutAttributes"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:background="#00BCD4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+
+                android:src="@drawable/albums" />
+
+            <TextView
+                style="@style/TextFieldAttributes"
+                android:text="@string/albums" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/songs_icon"
+            style="@style/LinearLayoutAttributes"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:background="#FF9800">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:src="@drawable/songs" />
+
+            <TextView
+                style="@style/TextFieldAttributes"
+                android:text="@string/songs" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/favorites_icon"
+            style="@style/LinearLayoutAttributes"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:background="#F44336">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:src="@drawable/favorites" />
+
+            <TextView
+                style="@style/TextFieldAttributes"
+                android:text="@string/favorites" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

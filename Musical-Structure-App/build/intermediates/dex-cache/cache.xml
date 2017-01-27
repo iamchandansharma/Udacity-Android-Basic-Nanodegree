@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\CS\AndroidStudioProjects\MusicalStructure\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b6f53c16e1f6b50ca65dd56765ceb15345073f24">
+        <dex dex="C:\Users\CS\AndroidStudioProjects\MusicalStructure\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eb14730589e613537147084e33d6e0ccb17911f4\classes.dex" />
+    </item>
+
+</items>

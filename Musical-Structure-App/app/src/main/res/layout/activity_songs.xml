@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E65100"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicalstructure.SongsActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#999999"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="All Songs Details"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/song_01"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_01" />
+
+        <TextView
+            android:id="@+id/song_02"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_02" />
+
+        <TextView
+            android:id="@+id/song_03"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_03" />
+
+        <TextView
+            android:id="@+id/song_04"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_04" />
+
+        <TextView
+            android:id="@+id/song_05"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_05" />
+
+        <TextView
+            android:id="@+id/song_06"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_06" />
+
+        <TextView
+            android:id="@+id/song_07"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_07" />
+
+        <TextView
+            android:id="@+id/song_08"
+            style="@style/AlbumsTextFieldAttributes"
+            android:text="@string/song_08" />
+    </LinearLayout>
+</ScrollView>

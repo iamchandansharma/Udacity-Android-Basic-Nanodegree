@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.musicalstructure.AlbumsActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#999999"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:text="All Albums Detail"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/album_one"
+            style="@style/ArtistsTextFieldAttributes"
+            android:layout_marginTop="8dp"
+            android:background="#9C27B0"
+            android:text="@string/album_01" />
+
+        <TextView
+            android:id="@+id/album_two"
+            style="@style/ArtistsTextFieldAttributes"
+            android:layout_marginTop="4dp"
+            android:background="#F44336"
+            android:text="@string/album_02" />
+
+        <TextView
+            android:id="@+id/album_three"
+            style="@style/ArtistsTextFieldAttributes"
+            android:layout_marginTop="4dp"
+            android:background="#009688"
+            android:text="@string/album_03" />
+
+        <TextView
+            android:id="@+id/album_four"
+            style="@style/ArtistsTextFieldAttributes"
+            android:layout_marginTop="4dp"
+            android:background="#03A9F4"
+            android:text="@string/album_04" />
+
+        <TextView
+            android:id="@+id/album_five"
+            style="@style/ArtistsTextFieldAttributes"
+            android:layout_marginTop="4dp"
+            android:background="#FF5722"
+            android:text="@string/album_05" />
+
+        <TextView
+            android:id="@+id/album_six"
+            style="@style/ArtistsTextFieldAttributes"
+            android:layout_marginTop="4dp"
+            android:background="#4CAF50"
+            android:text="@string/album_06" />
+    </LinearLayout>
+</ScrollView>

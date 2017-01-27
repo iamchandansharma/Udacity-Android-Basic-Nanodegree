@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.ArtistsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#999999"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp"
+        android:text="All Artist Detail"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/atif_album"
+        style="@style/ArtistsTextFieldAttributes"
+        android:layout_marginTop="8dp"
+        android:background="#9C27B0"
+        android:text="@string/atif_aslam" />
+
+    <TextView
+        android:id="@+id/sherya_album"
+        style="@style/ArtistsTextFieldAttributes"
+        android:layout_marginTop="4dp"
+        android:background="#F44336"
+        android:text="@string/shreya_ghosal" />
+
+    <TextView
+        android:id="@+id/sonu_album"
+        style="@style/ArtistsTextFieldAttributes"
+        android:layout_marginTop="4dp"
+        android:background="#009688"
+        android:text="@string/sonu_nigam" />
+
+    <TextView
+        android:id="@+id/arjeet_album"
+        style="@style/ArtistsTextFieldAttributes"
+        android:layout_marginTop="4dp"
+        android:background="#03A9F4"
+        android:text="@string/arjeet_singh" />
+</LinearLayout>
